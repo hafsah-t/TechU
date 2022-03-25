@@ -11262,5 +11262,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+ 
+  #tutorial_box {
+    border-style: double;
+    background-color: #06357a;
+  }
 
 /*# sourceMappingURL=bootstrap.css.map */
