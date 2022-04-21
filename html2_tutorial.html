@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>TechU</title>
+</head>
+<body>
+    <div class="container-sm" style="background-color: #6CB7E2"> <br>
+        <ul class="nav justify-content-center" style="color: #f8f9fa;">
+          <!-- <a class="navbar-brand" href="#"> <img src="images/techULogo.PNG" alt="logo" style="max-width: 70%; max-height: 70%;"></a> -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="color: #f8f9fa;"><b>HOME</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#tracks_on_home" style="color: #f8f9fa;"><b>TRACKS</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutorials.html" style="color: #0d6efd;"><b>TUTORIALS</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="account.html" style="color: #f8f9fa;"><b>SIGN IN</b></a>
+            </li>
+        </ul><br>
+    </div> 
+
+    <div id="html2" class="container-fluid" style="background-color:#6CB7E2; text-align: center;">
+        <h2 style="color:#f8f9fa">Welcome to our HTML 2 Tutorial!</h2> <br>
+        <h5>In this tutorial, we will build off of the basic HTML file you worked on in the first HTML tutorial to add a few new types of elements. </h5> <br>
+    </div><br>
+
+    <div id="step1" class="container" style="border-style: double; border-color: #6CB7E2; text-align: center; padding: .5%;">
+        <h3 style="color: red;"><b>Step 1</b></h3>
+        <h4 style="text-align: left;">Reopen the index.html file you worked on in the <a href="https://htajammal.github.io/TechU/html_tutorial.html" target="_blank">Intro to HTML tutorial</a>. If not already open, launch VS Code, and on the welcome page, select “Open” under the Start menu. From the dialogue that opens, choose the file that you created. It will open in the window, and now you are ready to start editing!<h4><br>
+        <img src="screenshots/html2_ss/html2_step1.png" alt="vstips_1_1" style="width: 60%;"><br><br>
+
+    </div><br>
+
+    <div id="step2" class="container" style="border-style: double; border-color: #6CB7E2; text-align: center; padding: .5%;">
+        <h3 style="color: red;"><b>Step 2.1</b></h3>
+        <h4 style="text-align: left;">The first element we will add is a list. A list can be ordered (items are numbered, using the <b>&lt;ol&gt;</b> element) or unordered (items are just bulleted, using the <b>&lt;ul&gt;</b> element.
+        <br><br> Below the &lt;p&gt; elements we made in the first tutorial, type the following: <br><br> <b>&lt;ol&gt;&lt;/ol&gt;</b><h4><br>
+        <img src="screenshots/html2_ss/html2_step2_1.png" alt="vstips_1_1" style="width: 95%;"><br><br>
+
+        <h3 style="color: red;"><b>Step 2.2</b></h3>
+        <h4 style="text-align: left;">Indent your cursor on the line between the two &lt;ol&gt; tags. If it does not indent automatically, you can do so by pressing the tab key.
+        <br><br> Each item in the list (whether the list is ordered or unordered) will be marked by the tag &lt;li&gt;.
+        <br><br> Type <b>&lt;li&gt;Excellent&lt;/li&gt;</b>, press enter, and then type <b>&lt;li&gt;Awesome&lt;/li&gt;</b>. These are the first two elements in your list. <h4><br>
+        <img src="screenshots/html2_ss/html2_step2_2.png" alt="vstips_1_1" style="width: 95%;"><br><br>
+
+        <h3 style="color: red;"><b>Step 2.3</b></h3>
+        <h4 style="text-align: left;">Continue filling out the list with more items as you desire. When you are ready, use the Open in Browser tool from the <a href="https://htajammal.github.io/TechU/vs_code_tips.html#step4" target="_blank">VS Code Tips tutorial</a> to see how the list looks in your website (right click on your hml file, then click "Open in Default Browser") <h4><br>
+        <img src="screenshots/html2_ss/html2_step2_3.png" alt="vstips_1_1" style="width: 70%;"><br><br>
+
+        <h3 style="color: red;"><b>Step 2.4</b></h3>
+        <h4 style="text-align: left;">To change the list to an unordered, or bulleted, list, all you need to do is change the <b>&lt;ol&gt;</b> tags to <b>&lt;ul&gt;</b>. Be sure to edit both the opening tag <b>&lt;ol&gt;</b> and the closing tag <b>&lt;/ol&gt;</b>, or the change will not work! <h4><br>
+        <img src="screenshots/html2_ss/html2_step2_4.png" alt="vstips_1_1" style="width: 70%;"><br><br>
+       
+    </div><br>
+
+    <div id="step3" class="container" style="border-style: double; border-color: #6CB7E2; text-align: center; padding: .5%;">
+        <h3 style="color: red;"><b>Step 3.1</b></h3>
+        <h4 style="text-align: left;">Another common HTML element is the button. Since this is only a static HTML page, nothing will happen when the button is clicked, but you can learn how to make the button reactive in later tutorials.
+        <br><br>
+        Underneath the closing tag of your list element (&lt;/ul&gt; or &lt;/ol&gt;), type the following: <xmp><button>This is a button element</button></xmp><h4><br>
+        <img src="screenshots/html2_ss/html2_step3_1.png" alt="vstips_1_1" style="width: 80%;"><br><br>
+
+        <h3 style="color: red;"><b>Step 3.2</b></h3>
+        <h4 style="text-align: left;">Save the file and refresh the browser to see how the button looks on your webpage. <h4><br>
+        <img src="screenshots/html2_ss/html2_step3_2.png" alt="vstips_1_1" style="height: 95%;"><br><br>
+
+
+    </div><br>
+
+    <div id="step4" class="container" style="border-style: double; border-color: #6CB7E2; text-align: center; padding: .5%;">
+        <h3 style="color: red;"><b>Step 4</b></h3>
+        <h4 style="text-align: left;">An additional element that can be useful to HTML is the break element: <xmp><br></xmp> This element adds a line break between other elements on the page. The break tag is considered an open tag, which means<b>it only has an opening tag and not a closing one</b> .
+        <br><br>
+        On the line after the button element, type <b>&lt;br&gt;</b>. You can add as many line breaks as you want, between any elements on your webpage. Here, I added two breaks to provide separation between the button element, and the image we will add in the next step.
+        <br><br>
+        This change won’t be visible yet on your webpage, but once the image is added, you will be able to see a separation of empty space between the image and the button. 
+        <h4><br>
+        <img src="screenshots/html2_ss/html2_step4.png" alt="vstips_1_1" style="width: 80%;"><br><br>
+    </div><br>
+
+    <div id="step5" class="container" style="border-style: double; border-color: #6CB7E2; text-align: center; padding: .5%;">
+        <h3 style="color: red;"><b>Step 5.1</b></h3>
+        <h4 style="text-align: left;">For the final step in this tutorial, we will add an image to the webpage. You can choose to use an image on your computer, or download provided image: <a href="screenshots/html2_ss/frog.png" download target="_blank">Click here for a sample image.</a> 
+        <br><br>
+        You can download the image by right-clicking and saving it to your computer. **IMPORTANT** - Be sure to save the image to the SAME FOLDER that your HTML file is located in. In this case, the vscode_tutorial folder. Name the file - “frog”. The file extension, .jpeg, will be added automatically. 
+        <br><br>
+        In VS Code, the file “frog.jpeg” should now be included in the folder. 
+        <h4><br>
+        <img src="screenshots/html2_ss/html2_step5_1.png" alt="vstips_1_1" style="width: 60%;"><br><br>
+
+
+        <h3 style="color: red;"><b>Step 5.2</b></h3>
+        <h4 style="text-align: left;">Next, we will need to add the image tag to the index.html file. The image tag is also an open tag, just like the break element. Below the &lt;button&gt; element, type: <xmp><img></xmp><h4><br>
+        <img src="screenshots/html2_ss/html2_step5_2.png" alt="vstips_1_1" style="width: 60%;"><br><br>
+
+        <h3 style="color: red;"><b>Step 5.3</b></h3>
+        <h4 style="text-align: left;">Next, we will need to add attributes to the tag. Attributes specify additional information about a tag. For an image, they can specify the location of the image file, alternative text to describe it, and its width and height on the page.
+        <br><br>
+        Move your cursor inside the  <b>&lt;img &gt;</b> tag, between the characters g and &gt;. Add a space, then type the following: <xmp>src= “frog.jpeg”</xmp>
+        <h4><br>
+        <img src="screenshots/html2_ss/html2_step5_3.png" alt="vstips_1_1" style="width: 60%;"><br><br>
+
+        <h3 style="color: red;"><b>Step 5.4</b></h3>
+        <h4 style="text-align: left;">Next we will add alternative text. Alternative text will show up if the browser is unable to load your photo, or if a user is unable to see your photo, alt text can help them understand what the photo is about.
+        <br><br> After the closing quotation of the src attribute, add a space and type the following:
+        <xmp>alt=“A frog and its reflection in water”</xmp>
+        You can edit the alternate text as you like, but make sure it describes what is in the photo. 
+        <h4><br>
+        <img src="screenshots/html2_ss/html2_step5_4.png" alt="vstips_1_1" style="width: 80%;"><br><br>
+
+        <h3 style="color: red;"><b>Step 5.5</b></h3>
+        <h4 style="text-align: left;">Finally, we will add the <b>style</b> attribute, which is used to specify aspects of an element such as height and width. This is optional, but recommended, as it can help the browser load your image more smoothly, and ensure the image is not too big or too small.
+        <br><br>After the closing quotation of the alt attribute, type the following: <xmp>style=“width:500px;height:300px;”</xmp>
+        You can play around with the numbers for width and height and see how they affect the image, however, make sure to keep the rest of the style attribute the same as this example, or it will not be read correctly by the computer.
+        <h4><br>
+        <img src="screenshots/html2_ss/html2_step5_5.png" alt="vstips_1_1" style="width: 80%;"><br><br>
+
+        <h3 style="color: red;"><b>Step 5.6</b></h3>
+        <h4 style="text-align: left;">Save the file in VS Code and refresh the browser. You should now see the image loaded onto your webpage. <h4><br>
+        <img src="screenshots/html2_ss/html2_step5_6.png" alt="vstips_1_1" style="width: 60%;"><br><br>
+    </div><br>
+
+    <div class="container" style="border-style: double; border-color: #6CB7E2; text-align: center; padding: .5%;">
+        <h3 style="color: red;"><b>More Resources</b></h3>
+        <h4 style="text-align: left;">To learn more about HTML, we recommend looking at <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">W3 Schools</a>. This site provides some great information about how to create and edit webpages. It is designed to be easy for beginners and is also free to use!</h4><br> 
+        <img src="screenshots/html_ss/w3pic.png" alt="w3" style="width: 95%;"><br><br>
+    
+      </div><br>
+
+ 
+    <div id="step3" class="container" style="text-align: center; padding: .5%;">
+    <button type="button" class="btn btn-primary btn-sm" onclick="window.location.href='#html2';">Back to top</button>
+    </div>
+      
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
